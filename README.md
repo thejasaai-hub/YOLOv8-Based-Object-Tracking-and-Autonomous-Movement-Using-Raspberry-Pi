@@ -80,15 +80,6 @@ This project integrates YOLOv8 object detection and segmentation with a Raspberr
    - Captures video for YOLOv8 processing.
 4. **Pre-trained YOLOv8 Model:**
    - A custom-trained YOLOv8 model (`best.pt`).
-     
-## Installation
-
-### **Install Dependencies**
-
-sudo apt-get update
-sudo apt-get install python3-opencv
-pip install ultralytics numpy RPi.GPIO
-
 
 ## Usage
 
