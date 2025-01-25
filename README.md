@@ -84,10 +84,11 @@ This project integrates YOLOv8 object detection and segmentation with a Raspberr
 ## Installation
 
 ### **Install Dependencies**
-```bash
+
 sudo apt-get update
 sudo apt-get install python3-opencv
 pip install ultralytics numpy RPi.GPIO
+
 
 ## Usage
 
@@ -111,13 +112,23 @@ Tracks and visualizes object positions in real-time.
 Can be adapted for automated material handling or sorting.
 
 ## Limitations
-Lighting Conditions:
+
+1.**Lighting Conditions**:
+
 Performance depends on the quality of video input.
-Model Accuracy:
+
+2. **Model Accuracy**:
+
 Detection is as good as the training of the YOLO model.
-Hardware Requirements:
+
+3. **Hardware Requirement**s:
+   
 Requires sufficient processing power for YOLOv8 inference.
-Future Enhancements
-Add real-time camera input instead of video file processing.
-Integrate additional sensors for obstacle avoidance.
-Improve decision-making algorithms for smoother navigation.
+
+## Future Enhancements
+
+- Add real-time camera input instead of video file processing.
+  
+- Integrate additional sensors for obstacle avoidance.
+  
+- Improve decision-making algorithms for smoother navigation.
